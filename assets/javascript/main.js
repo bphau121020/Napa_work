@@ -11,3 +11,13 @@ function resetList() {
     li.classList.remove("active");
   });
 }
+
+const load = document.querySelector(".load-more");
+let showCount = 4;
+load.addEventListener("click", () => {
+  let show = [...document.querySelectorAll(".main__left-content__lists li")];
+  for (let i = showCount; i <= showCount + 5; i++) {
+    show[i].style.display = "flex";
+  }
+  showCount += 4;
+});
