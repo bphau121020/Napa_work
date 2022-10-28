@@ -9,7 +9,8 @@ lý thuyết 10 câu hỏi JS
 }, 1000);
 var Time = Date.now();
 while (Date.now() - Time < 3000) {}
-2 và 3 ( a Thành bảo để đó vì là phần nodejs, em sẽ tìm hiểu thêm khi làm chủ đc js và reactjs).
+2. a Thành bảo để đó vì là phần nodejs, em sẽ tìm hiểu thêm khi làm chủ đc js và reactjs.
+3. a Thành bảo để đó vì đã làm phần facebook.
 4. Phân biệt let, var, const trong javascript
 •	Var: phạm vi Function Scope, Global Scope có thể khai lại; 
 •	Let: chỉ có Function Scope có thể khai báo lại;
